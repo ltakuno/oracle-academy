@@ -1,0 +1,19 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Principal {
+	private static FileWriter writer;
+
+	public static void main(String[] args) throws IOException {
+
+		for (int i = 0; i < 1000; i++) {
+			String string = "Hello" + i + ".java";
+			File sourceFile = new File(string);
+			writer = new FileWriter(sourceFile);
+			writer.write("public class Hello" + i + " public void sayHello() { System.out.println(\"Hello world" + i
+					+ "\");}}");
+			
+		}
+	}
+}

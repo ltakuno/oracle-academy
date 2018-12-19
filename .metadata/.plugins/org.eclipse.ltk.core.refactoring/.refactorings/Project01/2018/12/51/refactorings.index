@@ -1,0 +1,4 @@
+1545177171982	Convert local variable 'writer' to field
+1545177215561	Extract local variable 'string'
+1545177383714	Rename type 'Principal'
+1545179698082	Rename local variable 'sourceFile'

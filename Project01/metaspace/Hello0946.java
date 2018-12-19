@@ -1,0 +1,5 @@
+public class Hello946 {
+	public void sayHello() {
+		System.out.println("Hello world946");
+	}
+}
